@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html">
+  <title>Github API Webapp using jQuery - Treehouse Demo</title>
+  <meta name="author" content="Jake Rocheleau">
+  <link rel="shortcut icon" href="http://d15dxvojnvxp1x.cloudfront.net/assets/favicon.ico">
+  <link rel="icon" href="http://d15dxvojnvxp1x.cloudfront.net/assets/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> -->
+  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+  <script type='text/javacript' src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.1/js/bootstrap.min.js'></script>
+  <script src='custom.js'></script>
+</head>
+
+<body>
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#">Github Api </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+  <div id="w">
+    <h1>Simple Github API Webapp</h1>
+    <p>Enter a single Github username below and click the button to display profile info via JSON.</p>
+    
+    <input type="text"  class='form-control' name="ghusername" id="ghusername" placeholder="Github username...">
+    
+    <a class='btn btn-success' href="#" id="ghsubmitbtn">Pull User Data</a>
+    
+    <div id="ghapidata" class="clearfix"></div>
+  </div>
+
+</body>
+</html>
